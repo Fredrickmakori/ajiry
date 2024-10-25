@@ -1,0 +1,30 @@
+college-website/
+│
+├── backend/                   # Node.js backend folder
+│   ├── routes/
+│   │   └── coursesRoute.js     # API for courses
+│   ├── app.js                 # Main Express server
+│   ├── package.json           # Backend dependencies
+│   └── package-lock.json      # Backend lock file for npm
+│
+├── frontend/                  # React frontend folder
+│   ├── public/
+│   │   └── index.html         # HTML template for React app
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── HomePage.js    # Home page component
+│   │   │   ├── CoursesPage.js # Courses page component
+│   │   │   ├── AdmissionsPage.js # Admissions page component
+│   │   │   ├── StudentPortal.js  # Student Portal component
+│   │   │   └── SignUp.js      # Sign Up page for Firebase authentication
+│   │   ├── App.js             # Main React app component
+│   │   ├── firebase.js        # Firebase configuration and initialization
+│   │   ├── index.js           # React DOM render file
+│   │   └── styles/            # Folder for styles (CSS or SCSS)
+│   │       └── App.css        # CSS for main app
+│   ├── package.json           # Frontend dependencies
+│   └── package-lock.json      # Frontend lock file for npm
+│
+├── README.md                  # Documentation about the project
+├── .gitignore                 # Files to be ignored by Git
+└── .env                       # Environment variables (e.g., Firebase API keys)
